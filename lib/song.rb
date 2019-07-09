@@ -36,11 +36,12 @@ attr_accessor :name, :artist, :genre
 
    @@artists.uniq
    end
-end
+
   def self.genres
 
     @@genres.uniq
   end
+end
 
 # a.uniq
 
