@@ -32,11 +32,11 @@ attr_accessor :name, :artist, :genre
    @@count
  end
 
- # def self.artists
- #   self.artists << @artist
- #   @@artists.uniq
- #   end
- end
+ def self.artists
+   self.artists << @artist
+   @@artists.uniq
+   end
+end
   def self.genres
     self.genres << genre
     @@genres.uniq
