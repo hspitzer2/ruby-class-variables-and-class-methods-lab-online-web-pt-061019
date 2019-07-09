@@ -42,26 +42,3 @@ attr_accessor :name, :artist, :genre
     @@genres.uniq
   end
 end
-
-# a.uniq
-
-# class Album
-#   @@album_count = 0
-#
-#   def initialize
-#     @@album_count += 1
-#   end
-#
-#   def self.count
-#     @@album_count
-#   end
-
-# end
-
-
-
-# Song.class_variable_set(:@@artists, [])
-# Song.class_variable_set(:@@genres, [])
-# Song.class_variable_set(:@@count, 0)
-# Song.class_variable_set(:@@artist_count, {})
-# Song.class_variable_set(:@@genre_count, {})
