@@ -23,7 +23,7 @@ attr_accessor :name, :artist, :genre
  def artist
    @name = @artist
  end
-ß
+
  def genre
    @name = @artist
  end
