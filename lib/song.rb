@@ -43,7 +43,7 @@ attr_accessor :name, :artist, :genre
   end
 
   def self.genre_count
-    @@genre.each {|genre| binding.pry genre_count }
+    @@genres.each {|genre| binding.pry genre_count }
 
   end
   # def self.artist_count
