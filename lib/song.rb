@@ -33,7 +33,7 @@ attr_accessor :name, :artist, :genre
  end
 
  def self.artists
-   self.artists << @artist
+  #  self.artists << @artist
    @@artists.uniq
    end
 end
