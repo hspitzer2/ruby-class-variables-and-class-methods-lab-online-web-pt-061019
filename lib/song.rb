@@ -41,4 +41,12 @@ attr_accessor :name, :artist, :genre
 
     @@genres.uniq
   end
+
+  def self.genre_count
+    @@genre.each {|genre| binding.pry genre_count }
+
+  end
+  # def self.artist_count
+  #
+  # end
 end
